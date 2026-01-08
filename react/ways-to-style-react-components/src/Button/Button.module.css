@@ -1,0 +1,18 @@
+
+/* External CSS, CSS Modules, and Inline styles: those are 3 ways to style ur react com 
+ */
+
+ /* This is the classic CSS file you already use (Button.css, styles.css, etc.).
+ You write all your CSS in a .css file and import it somewhere (like main.jsx or App.jsx).
+ Rules are global: any component that uses a matching class name will get the styles. */
+ /* Styles are global, so if two components use the same class by accident, 
+ they can override each other. */
+
+/* .button{
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+} */
