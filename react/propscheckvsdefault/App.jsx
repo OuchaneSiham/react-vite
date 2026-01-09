@@ -4,14 +4,14 @@ function App() {
 
   return(
     <>
-    <Student name="90" 
-              age={22}
+    <Student name= "siham"
+              age="assss"
               isStudent={true}
     >
     </Student>
     <Student name="alae korchi" 
-              age="sss"
-              isStudent= "ssss"
+              age={77}
+              isStudent= {true}
     >
     </Student>
     <Student name="student1" 
@@ -24,7 +24,7 @@ function App() {
               isStudent={true}
     >
     </Student>
-    <h1>cccc</h1>
+    <Student></Student>
     </>
     
   );

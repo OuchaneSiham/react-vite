@@ -1,0 +1,16 @@
+.isTrue{
+    font-size: 2.5em;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+.isFalse{
+    font-size: 2.5em;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
