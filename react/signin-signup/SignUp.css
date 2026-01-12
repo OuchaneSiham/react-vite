@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+}
+
+/* main card */
+.signup-container {
+    width: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 80px auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.underline {
+    width: 50px;
+    height: 4px;
+    background: #4a5cff;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+/* inputs section */
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.input img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* buttons */
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.submit {
+    width: 48%;
+    text-align: center;
+    padding: 12px;
+    background: #4a5cff;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit:hover {
+    background: #3947d8;
+}
+.gray {
+    background: #c5c5c5;
+    color: #555;
+}
+/* .gray:hover {
+    background: #c5c5c5;
+    cursor: default;
+} */

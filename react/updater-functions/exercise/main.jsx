@@ -7,7 +7,6 @@ import { createRoot } from 'react-dom/client'
 // import './List3.css'
 // import './Counter.css'
 import App from './App.jsx'
-// import  './CompA.css'
 // import './ColorPicker.css'
 // import './SignUp.css'
 createRoot(document.getElementById('root')).render(

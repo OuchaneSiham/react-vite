@@ -1,0 +1,60 @@
+/* Page centering */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Main container */
+.todolist {
+    width: 350px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.todolist h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input + Add button */
+.todolist input {
+    width: 70%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.add-button {
+    padding: 8px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* List */
+ol {
+    padding-left: 20px;
+}
+
+/* Each task row */
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+/* Task text */
+.text {
+    flex: 1;
+}
+
+/* Buttons inside list */
+.delete {
+    margin-left: 5px;
+    padding: 4px 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
